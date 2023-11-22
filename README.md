@@ -48,12 +48,12 @@ This is [technical project assignment (TPA2) - BMI calculator](https://github.co
 
 ### Screenshot
 
-![Design preview for the BMI-Calculator](/design/screenshoot.gif)
+![Design preview for the BMI-Calculator](bmi-check-screenshoot.gif)
 
 
 ### Links
 
-- Live Site URL: [BMI-Check]()
+- Live Site URL: [BMI-Check](https://bmi-checkk.netlify.app/)
 
 ## My process
 
