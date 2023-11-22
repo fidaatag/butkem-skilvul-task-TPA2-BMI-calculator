@@ -1,0 +1,19 @@
+/* 768px for tablet */
+
+@media screen and (max-width: 769px) {
+
+    /* logo */
+    .logo img {
+        width: 3rem;
+    }
+    
+    .logo h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+
+}

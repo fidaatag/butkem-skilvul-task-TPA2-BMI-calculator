@@ -1,0 +1,196 @@
+/* button succes */
+.button-succes {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+  
+.button-succes:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.button-succes:hover {
+    background-color: #2c974b;
+}
+
+.button-succes:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.button-succes:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.button-succes:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+/* button fail */
+.button-fail {
+    appearance: none;
+    background-color: #a42e2e;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-fail:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.button-fail:hover {
+    background-color: #972c2c;
+}
+
+.button-fail:focus {
+    box-shadow: rgba(164, 46, 46, 0.4) 0 0 0 3px;
+    outline: none;
+}
+
+.button-fail:disabled {
+    background-color: #d39494;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.button-fail:active {
+    background-color: rgb(142, 46, 41);
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+/* custom input style */
+.input-group {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.input-group > span, .input-group .input-field {
+    white-space: nowrap;
+    display: block;
+}
+
+.input-group > span:not(:first-child):not(:last-child), .input-group .input-field:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+
+.input-group > span:first-child, .input-group .input-field:first-child {
+    border-radius: 6px 0 0 6px;
+}
+
+.input-group > span:last-child, .input-group .input-field:last-child {
+    border-radius: 0 6px 6px 0;
+}
+
+.input-group > span:not(:first-child), .input-group .input-field:not(:first-child) {
+    margin-left: -1px;
+}
+
+.input-group .input-field {
+    position: relative;
+    z-index: 1;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.input-group > span {
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #99a3ba;
+    background: #eef4ff;
+    border: 1px solid #cdd9ed;
+    transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+.input-group:focus-within > span {
+    font-weight: 600;
+    color: #242323;
+    background: #eef4ff;
+    border-color: #ffa2a2;
+}
+
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: inherit;
+    border-radius: 6px;
+    appearance: none;
+    color:  #000000;
+    border: 1px solid #cdd9ed;
+    background:  #fff;
+    transition: border 0.3s ease;
+}
+
+.input-field::placeholder {
+    color: #ccced2;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #ffa2a2;
+}
+
+
+/* Remove up and down arrows in Firefox */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove up and down arrows in Chrome, Safari, and Edge */
+input[type="number"] {
+  appearance: textfield;
+}

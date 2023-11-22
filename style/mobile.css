@@ -1,0 +1,30 @@
+/* 425px for mobile */
+
+@media screen and (max-width: 425px) {
+
+    /* logo */
+    .logo {
+        gap: 0.5rem;
+    }
+
+    .logo img {
+        width: 2rem;
+    }
+
+    .logo h1 {
+        font-size: 2rem;
+    }
+
+    .cont-result{
+        padding: 0;
+    }
+    .cont-result .frame {
+        padding: 0;
+    }
+    .cont-result .frame .text-result{
+        width: 16rem;
+        height: 16rem;
+    }
+
+
+}

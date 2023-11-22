@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/custom_comp.css">
+    <link rel="stylesheet" href="/style/tablet.css">
+    <link rel="stylesheet" href="/style/mobile.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="logo">
+            <img src="assets/logo.svg" alt="">
+            <h1>BMI-CHECK</h1>
+        </div>
+        
+        <div class="container">
+            <div class="cont-input">
+                <p>Enter your weight and height below to check your BMI result</p>
+                <form action="">
+                    
+                    <div class="inp-item">
+                        <label for="">Weight</label>
+                        <div class="input-group">
+                            <input class="input-field" type="number" placeholder="Input your weight here">
+                            <span>KG</span>
+                        </div>
+                    </div>
+
+                    <div class="inp-item">
+                        <label for="">Height</label>
+                        <div class="input-group">
+                            <input class="input-field" type="number" placeholder="Input your height here">
+                            <span>CM</span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="button-succes">Check</button>
+                </form>
+            </div>
+            <div class="cont-result">
+                <div class="frame">
+                    <div class="text-result">
+                        <h4>Your BMI is...</h4>
+                        <h2>?</h2>
+                        <h3>?????</h3>
+                    </div>
+                    <div class="image-result">
+                        <img src="assets/curious.svg" width="100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

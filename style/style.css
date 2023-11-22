@@ -1,0 +1,117 @@
+/* 
+desktop first
+break point : 
+768px for tablet
+425px for mobile
+*/
+
+/* set default */
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Schoolbell', cursive;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+
+/* start here */
+.wrap {
+    margin: 0 4%;
+}
+
+
+/* logo */
+.logo {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    margin: 4% 0;
+    align-content: center;
+}
+
+.logo img {
+    width: 4rem;
+}
+
+.logo h1 {
+    margin: auto 0;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+/* content */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+/* content - side input */
+.cont-input p {
+    font-size: 0.75rem;
+}
+
+.cont-input form {
+    margin: 1rem 0;
+}
+
+.cont-input form .inp-item {
+    margin-bottom: 1rem;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.cont-input form .inp-item label {
+    font-weight: 600;
+}
+
+
+/* content - side result */
+.cont-result{
+    padding: 16px;
+}
+
+.frame {
+    padding: 1rem 1rem 0 1rem ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cont-result .frame .text-result{
+    background: #ffedd4; 
+    background: -moz-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); 
+    background: -webkit-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); 
+    background: linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%);
+    border: 4px solid #ffb9a2;
+    padding: 2rem;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-result .frame .text-result h4 {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.cont-result .frame .text-result h2 {
+    font-weight: 600;
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+
+.cont-result .frame .image-result{
+    display: flex;
+    justify-content: flex-end;
+}
