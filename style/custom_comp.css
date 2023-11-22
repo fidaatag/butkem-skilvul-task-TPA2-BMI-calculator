@@ -52,6 +52,7 @@
 
 /* button fail */
 .button-fail {
+    display: none;
     appearance: none;
     background-color: #a42e2e;
     border: 1px solid rgba(27, 31, 35, .15);
@@ -60,7 +61,6 @@
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
-    display: inline-block;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
@@ -154,7 +154,7 @@
     font-weight: 600;
     color: #242323;
     background: #eef4ff;
-    border-color: #ffa2a2;
+    border-color: #4d4949;
 }
 
 .input-field {
@@ -179,18 +179,5 @@
 
 .input-field:focus {
     outline: none;
-    border-color: #ffa2a2;
-}
-
-
-/* Remove up and down arrows in Firefox */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Remove up and down arrows in Chrome, Safari, and Edge */
-input[type="number"] {
-  appearance: textfield;
+    border-color: #4d4949;
 }

@@ -56,6 +56,11 @@ break point :
     font-size: 0.75rem;
 }
 
+.cont-input p.fail-notif {
+    color: rgb(228, 6, 6);
+    font-weight: 900;
+}
+
 .cont-input form {
     margin: 1rem 0;
 }
